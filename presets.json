@@ -1,0 +1,51 @@
+{
+  "deepseek": {
+    "name": "DeepSeek",
+    "baseUrl": "https://api.deepseek.com/anthropic",
+    "authScheme": "bearer",
+    "extraHeaders": {"x-api-key": "{apiKey}"},
+    "models": [
+      {"name": "deepseek-v4-pro", "displayName": "DeepSeek V4 Pro"},
+      {"name": "deepseek-v4-flash", "displayName": "DeepSeek V4 Flash"}
+    ]
+  },
+  "kimi": {
+    "name": "Kimi (月之暗面)",
+    "baseUrl": "https://api.moonshot.cn/anthropic",
+    "authScheme": "bearer",
+    "extraHeaders": {},
+    "models": [
+      {"name": "kimi-k2.6", "displayName": "Kimi K2.6"}
+    ]
+  },
+  "minimax": {
+    "name": "MiniMax",
+    "baseUrl": "https://api.minimaxi.com/anthropic",
+    "authScheme": "bearer",
+    "extraHeaders": {},
+    "models": [
+      {"name": "MiniMax-M2", "displayName": "MiniMax M2"}
+    ]
+  },
+  "glm": {
+    "name": "智谱 GLM",
+    "baseUrl": "https://open.bigmodel.cn/api/anthropic",
+    "authScheme": "x-api-key",
+    "extraHeaders": {},
+    "models": [
+      {"name": "glm-5.1", "displayName": "GLM-5.1"},
+      {"name": "glm-4.7", "displayName": "GLM-4.7"}
+    ]
+  },
+  "qwen": {
+    "name": "通义千问 Qwen",
+    "baseUrl": "https://dashscope.aliyuncs.com/apps/anthropic",
+    "authScheme": "x-api-key",
+    "extraHeaders": {},
+    "models": [
+      {"name": "qwen3.6-plus", "displayName": "Qwen3.6 Plus"},
+      {"name": "qwen3.6-flash", "displayName": "Qwen3.6 Flash"},
+      {"name": "qwen3.6-max-preview", "displayName": "Qwen3.6 Max"}
+    ]
+  }
+}
