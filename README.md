@@ -6,6 +6,8 @@ the endpoint, key, and model list in the Configure UI every time.
 
 Two `.bat` shortcuts. No dependencies beyond Python 3 stdlib.
 
+[中文 README](README.zh-CN.md)
+
 ---
 
 ## How it works
